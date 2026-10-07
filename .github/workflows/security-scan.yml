@@ -30,4 +30,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run ESLint security scan
-        run: npx eslint .
+        run: npx eslint . --max-warnings=0
