@@ -1,0 +1,17 @@
+title = "RetroMarket Gitleaks Config"
+
+# This is an intentionally vulnerable teaching application.
+# Planted secrets (see docs/VULN_REGISTRY.md V05, M03) are expected to be
+# detected by secret scanning. The allowlist below only exempts the
+# documentation file that lists them, so the registry itself does not
+# produce duplicate noise while the real planted secrets in source are
+# still reported.
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Exempt only the vulnerability registry documentation"
+paths = [
+  '''docs/VULN_REGISTRY\.md''',
+]
