@@ -1,1 +1,7 @@
-pull_request_template.md
+# Default owner for everything in the repo
+* @edothecreator
+
+# Security-sensitive configuration and documentation
+/docs/ @edothecreator
+/.github/ @edothecreator
+/.kiro/steering/ @edothecreator
