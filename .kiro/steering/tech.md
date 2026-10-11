@@ -1,6 +1,6 @@
 # Stack (do not substitute)
 - API: Node.js, Express 4, plain JavaScript (CommonJS), no TypeScript
-- Database: PostgreSQL 15 with the `pg` driver, plain SQL, NO ORM
+- Database: PostgreSQL 15 
 - Auth: jsonwebtoken (HS256)
 - Uploads: multer. HTTP client: axios. Logging: morgan plus a small custom logger
 - Utilities: lodash (version pinned in docs/VULN_REGISTRY.md)

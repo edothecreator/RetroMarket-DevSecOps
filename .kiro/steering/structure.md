@@ -1,5 +1,6 @@
 retromarket/
-  api/            Express app (src/routes, controllers, services, db, middleware, config), tests/
+  api/            Express app (src/
+  (routes, controllers, services, dao, dto , models middleware, config , utils)), tests/
   web/            React + Vite app
   mobile/         Expo app
   infra/          Dockerfiles, docker-compose.yml, seed SQL
